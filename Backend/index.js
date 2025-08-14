@@ -1,10 +1,10 @@
 const express = require("express")
 const { createTodo, updateTodo } = require("./types")
-<<<<<<< HEAD
+
 const cors = require("cors")
-=======
+
 const { todo } = require("./db")
->>>>>>> 16d16d31b6b16f1e8c06da569c5e17cdbe9e7249
+
 const app = express()
 
 app.use(express.json())
